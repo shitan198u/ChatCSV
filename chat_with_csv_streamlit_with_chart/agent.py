@@ -9,7 +9,7 @@ from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe
 def create_pd_agent(filename: str):
     # Initiate a connection to the LLM from Azure OpenAI Service via LangChain.
     llm = GoogleGenerativeAI(model="gemini-pro",
-                            google_api_key="AIzaSyBx0n-jeinFp3xT5Mxm2T9yOQdM4RKjboM",
+                            google_api_key="",
                             max_output_tokens=2048,
                             top_p=0.7,
                             top_k=30,
